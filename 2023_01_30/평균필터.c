@@ -19,12 +19,10 @@ int main(void){
 	float n;
 	int i; //반복 변수
 	while(1){
-		printf("넣고 싶은 수를 넣으시오 : ");
+		printf("넣고 싶은 수를 넣으세요 : ");
 		scanf("%f",&n);
 		
 		Average(n);
-		
-		//k++;
 		printf("%f \n",x_avg_k);		
 	}
 
